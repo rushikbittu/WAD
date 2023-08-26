@@ -1,0 +1,48 @@
+*{
+    font-family: poppins;
+    margin: 100;
+    padding: 100;
+    box-sizing: border-box;
+}
+body{
+    height: 100 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0e0f0f;
+}
+div.myform{
+    background-color: rgb(253, 24, 234);
+    padding: 20px;
+    border-radius: 5px; /*to make borders curve */
+    width: fit-content;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+div.myform div.input-field label{
+    display: block;
+    font-weight: 550;
+}
+div.myform div.input-field input{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 8px;
+    outline: none;
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+div.myform div.submit-btn{
+    text-align: center;
+}
+div.myform div.submit-btn button{
+    padding: 5px 12px;
+    font-weight: 550;
+    border: 2px solid rgb(255, 252, 252);
+    background-color: rgb(225, 240, 14);
+    margin-top: 10px;
+
+}
